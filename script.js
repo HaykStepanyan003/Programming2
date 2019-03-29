@@ -12,6 +12,8 @@ for(let i = 0;i < array.length;i++){
 	matrix[i][j] = array[Math.floor(Math.random()*array.length)];
     }
 }
+
+
 function setup() {
     noStroke();
     frameRate(5);
